@@ -1,0 +1,20 @@
+{
+  "name": "jsdoc-to-d-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "doctrine": "^2.1.0",
+    "espree": "^4.0.0",
+    "extract-comments": "^1.0.0",
+    "walk-sync": "^0.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}
