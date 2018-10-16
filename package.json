@@ -11,8 +11,7 @@
   "dependencies": {
     "doctrine": "^2.1.0",
     "espree": "^4.0.0",
-    "extract-comments": "^1.0.0",
-    "walk-sync": "^0.3.3"
+    "extract-comments": "^1.0.0"
   },
   "devDependencies": {
     "prettier": "^1.14.3"
