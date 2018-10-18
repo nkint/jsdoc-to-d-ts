@@ -1,13 +1,23 @@
 {
   "name": "jsdoc-to-d-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Highly unstable experiment to generate typescript definition from jsdoc",
+  "author": {
+    "name": "alberto",
+    "email": "alberto.massa@ymail.com",
+    "url": ""
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "definition",
+    "codegen",
+    "jsdoc"
+  ],
   "dependencies": {
     "doctrine": "^2.1.0",
     "espree": "^4.0.0",
@@ -15,5 +25,8 @@
   },
   "devDependencies": {
     "prettier": "^1.14.3"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
